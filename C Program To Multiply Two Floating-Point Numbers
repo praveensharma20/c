@@ -22,3 +22,16 @@ int main()
 
 	return 0;
 }
+
+//there is another way to multiply 2 floating number
+
+#include<stdio.h>
+int main()
+{
+  double a,b,product;
+  printf("enter two number :");
+  scanf("%lf %lf",&a,&b);
+  product=a*b;
+  printf("Product=%2lf",product);
+  return 0;
+}
